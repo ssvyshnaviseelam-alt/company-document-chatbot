@@ -113,7 +113,7 @@ def ask_backend(question, chat_history):
 # ============================================
 
 st.set_page_config(
-    page_title="Northstar Document Assistant",
+    page_title="VertexCore Document Assistant",
     page_icon="🤖",
     layout="centered",
     initial_sidebar_state="expanded"
@@ -135,7 +135,7 @@ if "messages" not in st.session_state:
 
 with st.sidebar:
 
-    st.title("🤖 Northstar")
+    st.title("🤖 VertexCore ")
 
     st.caption(
         "AI-Powered Company Document Assistant"
@@ -273,7 +273,7 @@ with st.sidebar:
 
 
     st.caption(
-        "Northstar Technologies"
+        "VertexCore Technologies"
     )
 
     st.caption(
@@ -286,7 +286,7 @@ with st.sidebar:
 # ============================================
 
 st.title(
-    "🤖 Northstar Document Assistant"
+    "🤖 VertexCore Document Assistant"
 )
 
 st.caption(
@@ -303,7 +303,7 @@ if not st.session_state.messages:
 
     st.info(
         """
-        👋 **Welcome to Northstar Document Assistant**
+        👋 **Welcome to VertexCore Document Assistant**
 
         I can help you find information from the
         company's internal documents.

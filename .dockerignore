@@ -1,0 +1,13 @@
+myenv/
+ragenv/
+venv/
+.env
+.git/
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.vscode/
+.streamlit/secrets.toml
