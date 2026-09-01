@@ -8,3 +8,5 @@ pypdf
 faiss-cpu
 sentence-transformers
 python-dotenv
+fastapi
+uvicorn
